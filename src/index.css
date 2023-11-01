@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(https://fonts.googleapis.com/css?family=Mulish:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+@layer base {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish";
+  }
+
+  code {
+    font-family: "Mulish";
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+
+  .footer_bg{
+    background: url(./Assets/footer_bg.png);
+  }
+
+  .drop_shadow{
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+  }
+};
+
+@layer components{
+  
+}
